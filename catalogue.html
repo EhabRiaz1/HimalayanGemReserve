@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalogue · Pak-Afghan Gem Stones</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">
+        <span>The Himalayan</span>
+        <img
+          src="assets/images/logo.png"
+          alt="The Himalayan Gem Reserve logo"
+        />
+        <span>Gem Reserve</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html#story">Story</a>
+        <a href="index.html#collection">Collection</a>
+        <a href="index.html#process">Process</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="cta" data-modal-open="contact">Contact us</button>
+        <button class="menu-toggle" data-menu-toggle aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--catalogue">
+        <div class="hero-content">
+          <p class="eyebrow">Curated releases</p>
+          <h1>Private catalogue of rare stones.</h1>
+          <p class="lead">
+            A refined selection from Panjshir, Swat, and Badakhshan — graded,
+            photographed, and ready for bespoke commissions.
+          </p>
+          <div class="hero-actions">
+            <button class="primary">Download Lookbook</button>
+            <button class="ghost">Book an Appointment</button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            class="hero-gem-image"
+            src="assets/images/FlzVid9XgAA0V63.jpg"
+            alt="Luxury gemstone collection"
+            loading="eager"
+          />
+          <div class="hero-card">
+            <h3>Signature Portfolio</h3>
+            <p>Updated weekly · 24 pieces</p>
+            <span class="price">By request only</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalogue">
+        <div class="catalogue-header">
+          <h2>Featured lots</h2>
+          <p>
+            Each lot includes origin notes, grading, and light mapping for
+            brilliance.
+          </p>
+        </div>
+        <div class="catalogue-grid">
+          <article class="catalogue-card">
+            <div class="catalogue-image emerald"></div>
+            <h3>Panjshir Emerald Suite</h3>
+            <p>4 stones · 18.6ct total</p>
+            <span class="price">$28,500</span>
+          </article>
+          <article class="catalogue-card">
+            <div class="catalogue-image sapphire"></div>
+            <h3>Swat Sapphire Pair</h3>
+            <p>2 stones · 9.1ct total</p>
+            <span class="price">$14,200</span>
+          </article>
+          <article class="catalogue-card">
+            <div class="catalogue-image spinel"></div>
+            <h3>Badakhshan Spinel Trio</h3>
+            <p>3 stones · 7.4ct total</p>
+            <span class="price">$10,900</span>
+          </article>
+          <article class="catalogue-card">
+            <div class="catalogue-image tourmaline"></div>
+            <h3>Nuristan Tourmaline</h3>
+            <p>Single stone · 6.0ct</p>
+            <span class="price">$5,100</span>
+          </article>
+          <article class="catalogue-card">
+            <div class="catalogue-image emerald"></div>
+            <h3>Emerald Crescendo</h3>
+            <p>5 stones · 11.2ct total</p>
+            <span class="price">$19,600</span>
+          </article>
+          <article class="catalogue-card">
+            <div class="catalogue-image sapphire"></div>
+            <h3>Indus Blue Reserve</h3>
+            <p>3 stones · 8.4ct total</p>
+            <span class="price">$12,300</span>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" data-modal="contact" aria-hidden="true">
+      <div class="modal-overlay" data-modal-close></div>
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <button class="modal-close" data-modal-close aria-label="Close modal">
+          ✕
+        </button>
+        <h3>Contact The Himalayan Gem Reserve</h3>
+        <p>We respond within 24 hours for private viewings and sourcing.</p>
+        <div class="modal-details">
+          <span>Email: concierge@pakafghangems.com</span>
+          <span>Phone: +1 (202) 802-8072</span>
+          <span>Locations: Washington, D.C. · Dubai · Islamabad</span>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>© 2026 The Himalayan Gem Reserve. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Traceability</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

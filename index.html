@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pak-Afghan Gem Stones</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">
+        <span>The Himalayan</span>
+        <img
+          src="assets/images/logo.png"
+          alt="The Himalayan Gem Reserve logo"
+        />
+        <span>Gem Reserve</span>
+      </div>
+      <nav class="nav">
+        <a href="#story">Story</a>
+        <a href="#collection">History</a>
+        <a href="#process">Process</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="cta" data-modal-open="contact">Contact us</button>
+        <button
+          class="menu-toggle"
+          data-menu-toggle
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--mountain">
+        <div class="hero-content">
+          <p class="eyebrow">Responsibly sourced from mountain communities</p>
+          <h1>The green heart of the Hindu Kush.</h1>
+          <p class="lead">
+            We partner with villages across the Pak-Afghan border to bring you
+            rare emeralds, sapphires, and spinels with full traceability.
+            Each stone is cut for light, not weight.
+          </p>
+          <div class="hero-actions">
+            <a class="primary" href="catalogue.html">Explore the Collection</a>
+            <button class="ghost" data-modal-open="provenance">
+              View Provenance
+            </button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            class="hero-gem-image"
+            src="assets/images/Bird+head+finial+mughal.webp"
+            alt="Diamonds and gemstones"
+            loading="eager"
+          />
+          <div class="hero-card">
+            <h3>Emerald Crown</h3>
+            <p>6.2ct · Panjshir</p>
+            <span class="price">$8,900</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="split">
+        <div class="split-copy">
+          <h2>From mountain hands to modern heirlooms.</h2>
+          <p>
+            Our sourcing teams work directly with artisanal miners and
+            cooperatives. Every parcel is documented at origin, then shaped in
+            small batches in Islamabad and Kabul for maximum brilliance.
+          </p>
+          <div class="stats">
+            <div>
+              <span>15</span>
+              <p>Village partnerships</p>
+            </div>
+            <div>
+              <span>100%</span>
+              <p>Traceable parcels</p>
+            </div>
+            <div>
+              <span>40+</span>
+              <p>Master cutters</p>
+            </div>
+          </div>
+        </div>
+        <div class="split-panel">
+          <div class="panel-card">
+            <h4>Signature Traits</h4>
+            <ul>
+              <li>High-saturation greens and blues</li>
+              <li>Hall-of-mirrors brilliance</li>
+              <li>Low-inclusion parcels</li>
+            </ul>
+          </div>
+          <div class="panel-card">
+            <h4>Ethics First</h4>
+            <p>
+              Community funds support schools, water, and women's crafts
+              programs in mining villages.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="collection"
+        class="sticky-showcase"
+        data-sticky-showcase
+      >
+        <div class="sticky-pin">
+          <div class="showcase-header">
+            <p class="eyebrow">Our history</p>
+            <h2>Legacy milestones in our journey.</h2>
+            <p>
+              Four pivotal chapters that shaped our sourcing and craftsmanship
+              journey across the Hindu Kush.
+            </p>
+          </div>
+          <div class="showcase-stage">
+            <article class="product-card is-active" data-product>
+              <div class="product-visual emerald is-slider">
+                <div class="history-slider" data-slider>
+                  <img
+                    class="history-slide is-active"
+                    src="assets/images/FlzVid9XgAA0V63.jpg"
+                    alt="Topkapi Dagger detail"
+                  />
+                  <img
+                    class="history-slide"
+                    src="assets/images/FlzViG6WYAA46tI.jpg"
+                    alt="Topkapi Dagger handle"
+                  />
+                </div>
+              </div>
+              <div class="product-meta">
+                <h3>Topkapi Dagger — Imperial Treasure</h3>
+                <p>Commissioned by Sultan Mahmud I for Nadir Shah</p>
+                <p class="history-summary">
+                  The Topkapı Dagger which Sultan Mahmud I ordered to be made as
+                  a gift to Nadir Shah, but upon the sudden death of the Shah
+                  kept in the Imperial Treasure, has material and sentimental
+                  values and might as well be considered an artwork with
+                  aesthetic and elegant features.
+                </p>
+                <div class="product-details">
+                  <span>Item: Ceremonial dagger</span>
+                  <span>Status: Preserved in the Imperial Treasure</span>
+                  <span>Significance: Artistic and cultural masterpiece</span>
+                </div>
+                <button class="ghost">Explore archive</button>
+              </div>
+            </article>
+            <article class="product-card" data-product>
+              <div class="product-visual sapphire"></div>
+              <div class="product-meta">
+                <h3>Craftsmanship Renaissance</h3>
+                <p>Light-first faceting standards</p>
+                <div class="product-details">
+                  <span>Focus: Brilliance over weight</span>
+                  <span>Impact: Higher yield standards</span>
+                  <span>Result: Consistent VVS lots</span>
+                </div>
+                <button class="ghost">Explore archive</button>
+              </div>
+            </article>
+            <article class="product-card" data-product>
+              <div class="product-visual spinel"></div>
+              <div class="product-meta">
+                <h3>Traceability Commitment</h3>
+                <p>Digital custody logs across partners</p>
+                <div class="product-details">
+                  <span>Focus: Mine-to-vault records</span>
+                  <span>Impact: Third-party audits</span>
+                  <span>Result: 100% verified parcels</span>
+                </div>
+                <button class="ghost">Explore archive</button>
+              </div>
+            </article>
+            <article class="product-card" data-product>
+              <div class="product-visual tourmaline"></div>
+              <div class="product-meta">
+                <h3>Community Reinvestment</h3>
+                <p>Education and water grants</p>
+                <div class="product-details">
+                  <span>Focus: Village-led projects</span>
+                  <span>Impact: 12 schools supported</span>
+                  <span>Result: Long-term sourcing trust</span>
+                </div>
+                <button class="ghost">Explore archive</button>
+              </div>
+            </article>
+          </div>
+          <div class="showcase-progress">
+            <span>01</span>
+            <div class="progress-track">
+              <div class="progress-bar" data-progress></div>
+            </div>
+            <span>04</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalogue" class="catalogue">
+        <div class="catalogue-header">
+          <h2>Private catalogue preview</h2>
+          <p>
+            A curated snapshot from our vaults. For the complete lookbook,
+            explore the full catalogue.
+          </p>
+          <div class="hero-actions">
+            <a class="primary" href="catalogue.html">Open Catalogue</a>
+            <button class="ghost" data-modal-open="contact">Contact us</button>
+          </div>
+        </div>
+        <div class="catalogue-grid">
+          <article class="catalogue-card">
+            <div class="catalogue-image emerald"></div>
+            <h3>Panjshir Emerald Suite</h3>
+            <p>4 stones · 18.6ct total</p>
+            <span class="price">$28,500</span>
+          </article>
+          <article class="catalogue-card">
+            <div class="catalogue-image sapphire"></div>
+            <h3>Swat Sapphire Pair</h3>
+            <p>2 stones · 9.1ct total</p>
+            <span class="price">$14,200</span>
+          </article>
+          <article class="catalogue-card">
+            <div class="catalogue-image spinel"></div>
+            <h3>Badakhshan Spinel Trio</h3>
+            <p>3 stones · 7.4ct total</p>
+            <span class="price">$10,900</span>
+          </article>
+          <article class="catalogue-card">
+            <div class="catalogue-image tourmaline"></div>
+            <h3>Nuristan Tourmaline</h3>
+            <p>Single stone · 6.0ct</p>
+            <span class="price">$5,100</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="process" class="process">
+        <div class="process-header">
+          <h2>Precision cutting with a conscience.</h2>
+          <p>
+            Our approach blends traditional craftsmanship with modern light
+            mapping. The result: stones that glow in candlelight and in the sun.
+          </p>
+        </div>
+        <div class="process-grid">
+          <div class="process-card">
+            <h4>1. Source</h4>
+            <p>Miner-owned parcels with full origin documentation.</p>
+          </div>
+          <div class="process-card">
+            <h4>2. Select</h4>
+            <p>Hand-sorted stones for saturation, clarity, and geometry.</p>
+          </div>
+          <div class="process-card">
+            <h4>3. Cut</h4>
+            <p>Light-first faceting for maximum brilliance.</p>
+          </div>
+          <div class="process-card">
+            <h4>4. Share</h4>
+            <p>Traceable certificates and village profit sharing.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="cta-section">
+        <div class="cta-card">
+          <h2>Receive the private portfolio.</h2>
+          <p>
+            Weekly releases, bespoke sourcing, and one-of-one stones delivered
+            with full provenance.
+          </p>
+          <form class="newsletter">
+            <input
+              type="email"
+              placeholder="Email address"
+              aria-label="Email address"
+              required
+            />
+            <button class="primary" type="submit">Join the List</button>
+          </form>
+          <div class="contact-details">
+            <span>Washington, D.C. · Dubai · Islamabad</span>
+            <span>+1 (202) 802-8072</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" data-modal="contact" aria-hidden="true">
+      <div class="modal-overlay" data-modal-close></div>
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <button class="modal-close" data-modal-close aria-label="Close modal">
+          ✕
+        </button>
+        <h3>Contact The Himalayan Gem Reserve</h3>
+        <p>We respond within 24 hours for private viewings and sourcing.</p>
+        <div class="modal-details">
+          <span>Email: concierge@pakafghangems.com</span>
+          <span>Phone: +1 (202) 802-8072</span>
+          <span>Locations: Washington, D.C. · Dubai · Islamabad</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" data-modal="provenance" aria-hidden="true">
+      <div class="modal-overlay" data-modal-close></div>
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <button class="modal-close" data-modal-close aria-label="Close modal">
+          ✕
+        </button>
+        <h3>Provenance Snapshot</h3>
+        <p>
+          Each stone includes mine-of-origin records, cutter signatures, and a
+          transparent custody log. Full certificates are provided with every
+          acquisition.
+        </p>
+        <div class="modal-details">
+          <span>Origin: Panjshir, Swat, Badakhshan</span>
+          <span>Verification: Independent lab grading</span>
+          <span>Chain: Miner cooperative → Cutter → Vault</span>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>© 2026 The Himalayan Gem Reserve. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Traceability</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
