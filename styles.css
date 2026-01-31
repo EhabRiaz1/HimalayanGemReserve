@@ -118,6 +118,13 @@ input {
   background: rgba(255, 255, 255, 0.06);
 }
 
+.nav .cta {
+  width: 100%;
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+}
+
 .cta {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
@@ -765,6 +772,7 @@ main {
 .modal-card h3 {
   font-family: "Playfair Display", serif;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .modal-details {
@@ -772,6 +780,21 @@ main {
   display: grid;
   gap: 6px;
   color: var(--muted);
+}
+
+.modal-details a {
+  color: var(--text);
+}
+
+.modal-details a:hover {
+  text-decoration: underline;
+}
+
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .modal-close {

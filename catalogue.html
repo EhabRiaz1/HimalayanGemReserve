@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catalogue · Pak-Afghan Gem Stones</title>
+    <title>Catalogue · The Himalayan Gem Reserve</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,12 +15,10 @@
   <body>
     <header class="site-header">
       <div class="logo">
-        <span>The Himalayan</span>
         <img
           src="assets/images/logo.png"
           alt="The Himalayan Gem Reserve logo"
         />
-        <span>Gem Reserve</span>
       </div>
       <nav class="nav">
         <a href="index.html#story">Story</a>
@@ -28,10 +26,16 @@
         <a href="index.html#process">Process</a>
         <a href="catalogue.html">Catalogue</a>
         <a href="index.html#contact">Contact</a>
+        <button class="cta" data-modal-open="contact">Contact us</button>
       </nav>
       <div class="header-actions">
         <button class="cta" data-modal-open="contact">Contact us</button>
-        <button class="menu-toggle" data-menu-toggle aria-label="Open menu">
+        <button
+          class="menu-toggle"
+          data-menu-toggle
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
           <span></span>
           <span></span>
           <span></span>
@@ -126,9 +130,47 @@
         <h3>Contact The Himalayan Gem Reserve</h3>
         <p>We respond within 24 hours for private viewings and sourcing.</p>
         <div class="modal-details">
-          <span>Email: concierge@pakafghangems.com</span>
-          <span>Phone: +1 (202) 802-8072</span>
-          <span>Locations: Washington, D.C. · Dubai · Islamabad</span>
+          <span>Raahim Khan</span>
+          <span>
+            Phone:
+            <a href="tel:+923202225426" aria-label="Call Raahim Khan">
+              +92-3202225426
+            </a>
+          </span>
+          <span>
+            Email:
+            <a
+              href="mailto:raahim.khan@himalayan-gems.com"
+              aria-label="Email Raahim Khan"
+            >
+              raahim.khan@himalayan-gems.com
+            </a>
+          </span>
+          <span>
+            WhatsApp:
+            <a
+              href="https://wa.me/923202225426"
+              target="_blank"
+              rel="noopener"
+              aria-label="WhatsApp Raahim Khan"
+            >
+              Message on WhatsApp
+            </a>
+          </span>
+        </div>
+        <div class="modal-actions">
+          <a class="primary" href="tel:+923202225426">Call now</a>
+          <a class="ghost" href="mailto:raahim.khan@himalayan-gems.com">
+            Email
+          </a>
+          <a
+            class="ghost"
+            href="https://wa.me/923202225426"
+            target="_blank"
+            rel="noopener"
+          >
+            WhatsApp
+          </a>
         </div>
       </div>
     </div>
